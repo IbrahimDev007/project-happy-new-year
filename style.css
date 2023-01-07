@@ -1,0 +1,166 @@
+* {
+	margin: 0, auto;
+	font-family: Work Sans;
+}
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: url("./images/banner/banner1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	text-align: right;
+}
+
+.banner-section {
+	margin: 30px 100px;
+}
+
+.banner-description {
+	width: 200px;
+    margin-top: 20px;
+}
+
+.btn {
+	width: 100px;
+	height: 40px;
+	background-color: #f15b22;
+	margin-top: 20px;
+	border: none;
+}
+.main-section {
+	margin: 100px 100px;
+}
+/* performance css */
+.perfrome-container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: space-around;
+	align-items: center;
+	gap: 70px;
+}
+.perfrome-imge {
+	width: 50%;
+}
+.perfromence {
+	width: 50%;
+}
+.p-desc {
+	width: 250px;
+    font-size: 16px;
+    color: #444343;
+}
+.p-lst{
+    font-size: 16px;
+    color: #444343;
+}
+.p-title{
+    font-size: 40px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    padding-left: 1.3em;
+  }
+  li:before {
+    content: "✔️"; 
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.3em; 
+  }
+/* myplan section css */
+  .planTitle{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700px;
+    font-size: 40px;
+  }
+  .plan-title-desc{
+    font-size: 30px;
+  }
+  .plan-sub{
+    font-size: 25px;
+    color: hsl(0, 0%, 45%);
+  }
+  .plan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .planContent{
+    display: flex;
+    justify-content: space-around;
+    padding:10px ;
+  }
+    /* call to action css */
+
+.call-to-action{
+    background-image: url(./images/watch.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    padding-bottom: 10px;
+   
+   
+}
+.call-img{
+    width: 100%;
+    height: 300px;
+  
+}
+.call-text{
+   padding-left: 20px;
+   align-items: center;
+   margin-top:-240px;
+
+}
+.call-title{
+    color: white;
+    font-weight: 459px;
+    font-size: 40px;
+}
+.call-button{
+    width: 160px;
+    height: 64px;
+    border: none;
+    font-size:20px ;
+    border-radius: 5px;
+    background-color: white;
+    color: #f15b22;
+   
+}
+
+/* blog section  */
+.blog-item{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.myblog-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.blog-content h3{
+    text-align: center;
+    font-size: 25px;
+}
+.blog-content{
+    border: 5px #f15b22  solid;
+}
+h3 > p{
+    font-size: 16px;
+    color: #e2e2e2;
+}
+.myblog{
+    padding-bottom: 20px;
+    background: rgb(255,105,86);
+    background: linear-gradient(90deg, rgba(255,105,86,1) 0%, rgba(255,85,33,0.5998774509803921) 35%, rgba(255,88,51,1) 100%);
+    color: white;
+}
