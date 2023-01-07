@@ -164,3 +164,45 @@ h3 > p{
     background: linear-gradient(90deg, rgba(255,105,86,1) 0%, rgba(255,85,33,0.5998774509803921) 35%, rgba(255,88,51,1) 100%);
     color: white;
 }
+/* footer-section */
+.blog-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color:black;
+    color: white;
+}
+.footer-title{
+    font-size: 40px;
+}
+.footer-content{
+    font-size: 16px;
+    width: 400px;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+}
+/* formhere */
+.form h4{
+    font-size: 30px;
+}
+.subscribe-button{
+    width: 160px;
+    height: 64px;
+    border: none;
+    font-size:20px ;
+    border-radius: 5px;
+    background-color: white;
+    color: #f15b22;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.inputfield{
+    height: 40px;
+    width: 325px;
+    margin-bottom: 20px;
+}
