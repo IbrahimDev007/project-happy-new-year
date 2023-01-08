@@ -9,14 +9,19 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
-	align-items: center;
-	text-align: right;
+	justify-content: right;
+    align-items: center;
+	
 }
 
 .banner-section {
-	margin: 30px 100px;
+	margin-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
-
+.banner-section h2{
+    font-size: 40px;
+}
 .banner-description {
 	width: 200px;
     margin-top: 20px;
@@ -28,6 +33,7 @@ header {
 	background-color: #f15b22;
 	margin-top: 20px;
 	border: none;
+    border-radius: 5px;
 }
 .main-section {
 	margin: 100px 100px;
